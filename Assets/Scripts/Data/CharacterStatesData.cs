@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Data
+namespace TonyDev.Data
 {
     [CreateAssetMenu(menuName = ("Data/CharacterStatesData"), fileName = ("CharacterStatesData_"))]
     public class CharacterStatesData : ScriptableObject

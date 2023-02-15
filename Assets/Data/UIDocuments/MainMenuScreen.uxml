@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Data/StyleSheets/MainMenuScreen.uss?fileID=7433441132597879392&amp;guid=8c4d48a4af502a543ae528e6dc389d0e&amp;type=3#MainMenuScreen" />
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Data/UIResources/bk.png?fileID=2800000&amp;guid=5ce864fb8cc139c43b8fb1e52a90f7d2&amp;type=3#bk&apos;); -unity-background-scale-mode: scale-and-crop; -unity-background-image-tint-color: rgba(144, 139, 139, 0.67);">
+        <ui:VisualElement style="flex-basis: 30%; flex-direction: column-reverse;">
+            <ui:Label text="This is a GAME" display-tooltip-when-elided="true" name="LabelGameTitle" style="flex-direction: column; margin-left: 30%; margin-right: 30%; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; font-size: 100px; -unity-text-align: upper-center; -unity-font-definition: url(&apos;project://database/Assets/Data/UIResources/Fonts/NotoSansCJK-Medium-5%20SDF.asset?fileID=11400000&amp;guid=9efd2c8c3d384b04aab45d043b70aaad&amp;type=2#NotoSansCJK-Medium-5 SDF&apos;); color: rgb(255, 255, 255); border-left-color: rgba(19, 19, 19, 0.87); border-right-color: rgba(19, 19, 19, 0.87); border-top-color: rgba(19, 19, 19, 0.87); border-bottom-color: rgba(19, 19, 19, 0.87); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; -unity-text-outline-width: 5px; -unity-text-outline-color: rgb(64, 29, 47); text-shadow: 2px 2px 2px rgb(137, 28, 85); letter-spacing: 3px; word-spacing: 2px; -unity-paragraph-spacing: 2px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; -unity-text-align: middle-center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-top: 10%; flex-direction: column;">
+            <ui:Button text="继续游戏" display-tooltip-when-elided="true" name="ButtonContinue" style="width: 200px; flex-basis: auto; flex-shrink: 1; display: flex;" />
+            <ui:Button text="新的游戏" display-tooltip-when-elided="true" name="ButtonNewGame" style="flex-basis: auto;" />
+            <ui:Button text="读取游戏" display-tooltip-when-elided="true" name="ButtonLoadGame" style="flex-basis: auto;" />
+            <ui:Button text="选项设置" display-tooltip-when-elided="true" name="ButtonOptions" style="flex-basis: auto;" />
+            <ui:Button text="退出游戏" display-tooltip-when-elided="true" name="ButtonQuitGame" style="flex-basis: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

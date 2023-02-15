@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Data
+namespace TonyDev.Data
 {
     [CreateAssetMenu(menuName = ("Data/PartyData"), fileName = ("PartyData_"))]
     public class PartyData : ScriptableObject

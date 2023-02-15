@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using Data;
+using TonyDev.Data;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace UI
+namespace TonyDev.UI
 {
     public class CharacterDataPanel: VisualElement
     {
