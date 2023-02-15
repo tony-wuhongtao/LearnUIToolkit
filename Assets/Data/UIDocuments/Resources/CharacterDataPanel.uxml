@@ -1,0 +1,60 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="CharacterDataPanel" style="background-color: rgba(147, 161, 159, 0.33); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; flex-grow: 1;">
+        <ui:VisualElement name="AvatarContainer" style="flex-basis: 50%; margin-left: 5%; margin-right: 5%; margin-top: 5%; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">
+            <ui:VisualElement name="Avatar" style="background-image: url(&apos;project://database/Assets/Data/UIResources/Characters%20Images/ironman.png?fileID=2800000&amp;guid=9658311e07e4ee84fb34f118e88e50d2&amp;type=3#ironman&apos;); flex-grow: 1; -unity-background-scale-mode: scale-and-crop; -unity-background-image-tint-color: rgba(103, 212, 212, 0.78); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; justify-content: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="NameContainer" style="flex-grow: 1;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="NameLabel" style="font-size: 40px; background-color: rgb(96, 37, 52); margin-left: 3%; margin-right: 3%; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; -unity-text-align: middle-center; padding-left: 1%; flex-grow: 1; position: relative;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="StatesContainer" style="flex-grow: 1; background-color: rgba(53, 70, 94, 0.78); margin-left: 5%; margin-right: 5%; margin-top: 0; margin-bottom: 5%; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-text-align: middle-left;">
+            <ui:VisualElement name="StateContainer" style="flex-direction: row; flex-basis: auto;">
+                <ui:VisualElement name="StateTitleContainer" style="flex-basis: 50%; background-color: rgb(0, 3, 25); margin-left: 5px; margin-right: 0; margin-top: 5px; margin-bottom: 5px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateTitleLabel" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="StateValueContainer" style="flex-basis: 50%; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-color: rgb(23, 73, 192); border-right-color: rgb(23, 73, 192); border-top-color: rgb(23, 73, 192); border-bottom-color: rgb(23, 73, 192); background-color: rgb(80, 28, 46); border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateValueLabel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="StateContainer" style="flex-direction: row; flex-basis: auto;">
+                <ui:VisualElement name="StateTitleContainer" style="flex-basis: 50%; background-color: rgb(0, 3, 25); margin-left: 5px; margin-right: 0; margin-top: 5px; margin-bottom: 5px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateTitleLabel" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="StateValueContainer" style="flex-basis: 50%; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-color: rgb(23, 73, 192); border-right-color: rgb(23, 73, 192); border-top-color: rgb(23, 73, 192); border-bottom-color: rgb(23, 73, 192); background-color: rgb(80, 28, 46); border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateValueLabel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="StateContainer" style="flex-direction: row;">
+                <ui:VisualElement name="StateTitleContainer" style="flex-basis: 50%; background-color: rgb(0, 3, 25); margin-left: 5px; margin-right: 0; margin-top: 5px; margin-bottom: 5px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateTitleLabel" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="StateValueContainer" style="flex-basis: 50%; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-color: rgb(23, 73, 192); border-right-color: rgb(23, 73, 192); border-top-color: rgb(23, 73, 192); border-bottom-color: rgb(23, 73, 192); background-color: rgb(80, 28, 46); border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateValueLabel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="StateContainer" style="flex-direction: row;">
+                <ui:VisualElement name="StateTitleContainer" style="flex-basis: 50%; background-color: rgb(0, 3, 25); margin-left: 5px; margin-right: 0; margin-top: 5px; margin-bottom: 5px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateTitleLabel" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="StateValueContainer" style="flex-basis: 50%; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-color: rgb(23, 73, 192); border-right-color: rgb(23, 73, 192); border-top-color: rgb(23, 73, 192); border-bottom-color: rgb(23, 73, 192); background-color: rgb(80, 28, 46); border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateValueLabel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="StateContainer" style="flex-direction: row;">
+                <ui:VisualElement name="StateTitleContainer" style="flex-basis: 50%; background-color: rgb(0, 3, 25); margin-left: 5px; margin-right: 0; margin-top: 5px; margin-bottom: 5px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateTitleLabel" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="StateValueContainer" style="flex-basis: 50%; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-color: rgb(23, 73, 192); border-right-color: rgb(23, 73, 192); border-top-color: rgb(23, 73, 192); border-bottom-color: rgb(23, 73, 192); background-color: rgb(80, 28, 46); border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateValueLabel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="StateContainer" style="flex-direction: row; flex-grow: 0;">
+                <ui:VisualElement name="StateTitleContainer" style="flex-basis: 50%; background-color: rgb(0, 3, 25); margin-left: 5px; margin-right: 0; margin-top: 5px; margin-bottom: 5px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateTitleLabel" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="StateValueContainer" style="flex-basis: 50%; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-color: rgb(23, 73, 192); border-right-color: rgb(23, 73, 192); border-top-color: rgb(23, 73, 192); border-bottom-color: rgb(23, 73, 192); background-color: rgb(80, 28, 46); border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-left: 5px;">
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="StateValueLabel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

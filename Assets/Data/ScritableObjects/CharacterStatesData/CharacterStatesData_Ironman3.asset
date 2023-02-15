@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5dba385a38ae3429a76435993993a7, type: 3}
+  m_Name: CharacterStatesData_Ironman3
+  m_EditorClassIdentifier: 
+  dataFile: {fileID: 4900000, guid: f6ca00fa1a3494c4a9dc4b61f3ded6be, type: 3}
+  characterStatesList:
+  - initiative: 31
+    maxHp: 45
+    maxMp: 45
+    attack: 32
+    defense: 32
+  - initiative: 32
+    maxHp: 46
+    maxMp: 46
+    attack: 33
+    defense: 33
+  - initiative: 33
+    maxHp: 47
+    maxMp: 47
+    attack: 34
+    defense: 34
+  - initiative: 34
+    maxHp: 48
+    maxMp: 48
+    attack: 35
+    defense: 35
+  - initiative: 35
+    maxHp: 49
+    maxMp: 49
+    attack: 36
+    defense: 36
+  - initiative: 36
+    maxHp: 50
+    maxMp: 50
+    attack: 37
+    defense: 37
+  - initiative: 37
+    maxHp: 51
+    maxMp: 51
+    attack: 38
+    defense: 38
+  - initiative: 38
+    maxHp: 52
+    maxMp: 52
+    attack: 39
+    defense: 39
+  - initiative: 39
+    maxHp: 53
+    maxMp: 53
+    attack: 40
+    defense: 40
+  - initiative: 40
+    maxHp: 54
+    maxMp: 54
+    attack: 41
+    defense: 41

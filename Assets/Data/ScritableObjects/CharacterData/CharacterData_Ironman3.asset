@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d471d26970846504eaa61a53da4faa11, type: 3}
+  m_Name: CharacterData_Ironman3
+  m_EditorClassIdentifier: 
+  characterAvatarImage: {fileID: 2800000, guid: 7c12c7945fc94764f8d3ac03a7a815a1, type: 3}
+  characterName: "\u94A2\u94C1\u4FA03.0"
+  characterStartLevel: 5
+  characterStatesData: {fileID: 11400000, guid: 586f5516c28ed2e428d1c487c7767eb3, type: 2}

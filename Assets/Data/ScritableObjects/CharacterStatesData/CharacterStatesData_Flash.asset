@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5dba385a38ae3429a76435993993a7, type: 3}
+  m_Name: CharacterStatesData_Flash
+  m_EditorClassIdentifier: 
+  dataFile: {fileID: 4900000, guid: 0b3f15c393df94446b12e8dd06e8b106, type: 3}
+  characterStatesList:
+  - initiative: 9
+    maxHp: 18
+    maxMp: 25
+    attack: 8
+    defense: 9
+  - initiative: 10
+    maxHp: 19
+    maxMp: 26
+    attack: 9
+    defense: 10
+  - initiative: 11
+    maxHp: 20
+    maxMp: 27
+    attack: 10
+    defense: 11
+  - initiative: 12
+    maxHp: 21
+    maxMp: 28
+    attack: 11
+    defense: 12
+  - initiative: 13
+    maxHp: 22
+    maxMp: 29
+    attack: 12
+    defense: 13
+  - initiative: 14
+    maxHp: 23
+    maxMp: 30
+    attack: 13
+    defense: 14
+  - initiative: 15
+    maxHp: 24
+    maxMp: 31
+    attack: 14
+    defense: 15
+  - initiative: 16
+    maxHp: 25
+    maxMp: 32
+    attack: 15
+    defense: 16
+  - initiative: 17
+    maxHp: 26
+    maxMp: 33
+    attack: 16
+    defense: 17
+  - initiative: 18
+    maxHp: 27
+    maxMp: 34
+    attack: 17
+    defense: 18

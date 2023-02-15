@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Data/StyleSheets/PartyDataScreen.uss?fileID=7433441132597879392&amp;guid=23fab0aec9ab12845b21781a41130586&amp;type=3#PartyDataScreen" />
+    <ui:VisualElement name="Background" style="background-image: url(&apos;project://database/Assets/Data/UIResources/background.png?fileID=2800000&amp;guid=d0c3ef542ae71f7419dfdda9ca56dd7e&amp;type=3#background&apos;); flex-grow: 1; -unity-background-scale-mode: scale-and-crop; background-color: rgba(250, 244, 244, 0.4); padding-left: 4%; padding-right: 4%; padding-top: 4%; padding-bottom: 4%; -unity-background-image-tint-color: rgb(115, 115, 115);">
+        <ui:VisualElement name="TitleContainer" style="height: 10%; margin-bottom: 1%;">
+            <ui:Label text="HERO PARTY DATA" display-tooltip-when-elided="true" name="TitleLabel" style="font-size: 100px; -unity-font-style: bold-and-italic; -unity-text-align: upper-left; -unity-font-definition: url(&apos;project://database/Assets/Data/UIResources/Fonts/JosefinSans-Bold%20SDF.asset?fileID=11400000&amp;guid=fbb83be0416308645b1db3d640e47ecc&amp;type=2#JosefinSans-Bold SDF&apos;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BodyContainer" style="flex-grow: 1; flex-direction: row;">
+            <UI.CharacterDataPanel style="flex-basis: 25%;" />
+            <UI.CharacterDataPanel style="flex-basis: 25%;" />
+            <UI.CharacterDataPanel style="flex-basis: 25%;" />
+            <UI.CharacterDataPanel style="flex-basis: 25%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

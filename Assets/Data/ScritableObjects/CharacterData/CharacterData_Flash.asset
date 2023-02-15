@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d471d26970846504eaa61a53da4faa11, type: 3}
+  m_Name: CharacterData_Flash
+  m_EditorClassIdentifier: 
+  characterAvatarImage: {fileID: 2800000, guid: 93bb7b38b873fb949aa99826f69281dc, type: 3}
+  characterName: "\u95EA\u7535\u4FA0"
+  characterStartLevel: 1
+  characterStatesData: {fileID: 11400000, guid: 0934d260d0d52f4448a20c7109978ca6, type: 2}
