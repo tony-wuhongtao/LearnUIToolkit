@@ -20,7 +20,13 @@ namespace TonyDev.UI
 
             SceneLoader.LoadingStarted += FadeOut;
             SceneLoader.LoadingCompleted += FadeIn;
-            
+            SceneLoader.IsLoading += Loading;
+
+        }
+
+        private void Loading(float obj)
+        {
+            Debug.Log("It's loading -> " + (obj*100).ToString("0.0") + "%");
         }
 
         IEnumerator ActivateLoadedSceneCoroutine()

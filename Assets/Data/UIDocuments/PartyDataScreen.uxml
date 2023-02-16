@@ -5,10 +5,7 @@
             <ui:Label text="HERO PARTY DATA" display-tooltip-when-elided="true" name="TitleLabel" style="font-size: 100px; -unity-font-style: bold-and-italic; -unity-text-align: upper-left; -unity-font-definition: url(&apos;project://database/Assets/Data/UIResources/Fonts/JosefinSans-Bold%20SDF.asset?fileID=11400000&amp;guid=fbb83be0416308645b1db3d640e47ecc&amp;type=2#JosefinSans-Bold SDF&apos;);" />
         </ui:VisualElement>
         <ui:VisualElement name="BodyContainer" style="flex-grow: 1; flex-direction: row;">
-            <UI.CharacterDataPanel style="flex-basis: 25%;" />
-            <UI.CharacterDataPanel style="flex-basis: 25%;" />
-            <UI.CharacterDataPanel style="flex-basis: 25%;" />
-            <UI.CharacterDataPanel style="flex-basis: 25%;" />
+            <TonyDev.UI.CharacterDataPanel style="flex-basis: 25%;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
